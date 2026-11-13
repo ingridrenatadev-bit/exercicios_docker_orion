@@ -1,0 +1,25 @@
+// Exercício 3: Não relacional (CRUD básico) - banco "blog"
+
+// Recomeça limpo para o script poder ser rodado várias vezes
+db.posts.drop()
+
+// 1. Criar a coleção posts
+db.createCollection("posts")
+
+// 2. Inserir o primeiro documento (titulo, autor, conteudo)
+db.posts.insertOne({
+  titulo: "Introdução ao MongoDB",
+  autor: "Ana Costa",
+  conteudo: "O MongoDB armazena dados em documentos parecidos com JSON."
+})
+
+// 3. Schema flexível: segundo documento com o campo novo "tags"
+db.posts.insertOne({
+  titulo: "Schema flexível na prática",
+  autor: "Bruno Alves",
+  conteudo: "Cada documento pode ter campos diferentes na mesma coleção.",
+  tags: ["nosql", "flexivel"]
+})
+
+// 4. Consultar: lista todos os documentos
+db.posts.find()

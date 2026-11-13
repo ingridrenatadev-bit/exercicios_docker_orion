@@ -1,0 +1,81 @@
+Current Mongosh Log ID:	6af77172862cf6f4ec7d976a
+Connecting to:		mongodb://<credentials>@localhost:27017/blog?authSource=admin&directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.14.2
+Using MongoDB:		7.0.48
+Using Mongosh:		2.14.2
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2026-11-13T20:09:10.470+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2026-11-13T20:09:11.681+00:00: Soft rlimits for open file descriptors too low
+------
+
+blog> 
+blog> 
+blog> 
+blog> 
+blog> | | | | | | | | | | {
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+blog> 
+blog> 
+blog> [
+  {
+    _id: ObjectId('6af770ebc7e7563935a1c947'),
+    titulo: 'Schema flexível na prática',
+    autor: 'Bruno Alves',
+    conteudo: 'Cada documento pode ter campos diferentes na mesma coleção.',
+    tags: [ 'nosql', 'flexivel' ],
+    comentarios: [
+      {
+        usuario: 'Carla',
+        texto: 'Explicação muito clara!',
+        data: ISODate('2026-11-10T00:00:00.000Z')
+      },
+      {
+        usuario: 'Diego',
+        texto: 'Ótimo para quem está começando.',
+        data: ISODate('2026-11-11T00:00:00.000Z')
+      }
+    ]
+  }
+]
+blog> 
+blog> 
+blog> [
+  {
+    _id: ObjectId('6af770ebc7e7563935a1c946'),
+    titulo: 'Introdução ao MongoDB',
+    autor: 'Ana Costa',
+    conteudo: 'O MongoDB armazena dados em documentos parecidos com JSON.'
+  }
+]
+blog> 
+blog> 
+blog> [
+  {
+    _id: ObjectId('6af770ebc7e7563935a1c947'),
+    titulo: 'Schema flexível na prática',
+    autor: 'Bruno Alves',
+    conteudo: 'Cada documento pode ter campos diferentes na mesma coleção.',
+    tags: [ 'nosql', 'flexivel' ],
+    comentarios: [
+      {
+        usuario: 'Carla',
+        texto: 'Explicação muito clara!',
+        data: ISODate('2026-11-10T00:00:00.000Z')
+      },
+      {
+        usuario: 'Diego',
+        texto: 'Ótimo para quem está começando.',
+        data: ISODate('2026-11-11T00:00:00.000Z')
+      }
+    ]
+  }
+]
+blog> 

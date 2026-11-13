@@ -1,0 +1,18 @@
+NOTICE:  table "alunos" does not exist, skipping
+DROP TABLE
+NOTICE:  table "cursos" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 3
+INSERT 0 4
+ id |    nome     |         email         | curso_id 
+----+-------------+-----------------------+----------
+  1 | João Silva  | joao.silva@email.com  |        1
+  2 | Maria Souza | maria.souza@email.com |        2
+  3 | Carlos Lima | carlos.lima@email.com |        1
+  4 | Ana Pereira | ana.pereira@email.com |        2
+(4 rows)
+
+ERROR:  insert or update on table "alunos" violates foreign key constraint "fk_alunos_cursos"
+DETAIL:  Key (curso_id)=(99) is not present in table "cursos".

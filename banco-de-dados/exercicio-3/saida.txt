@@ -1,0 +1,54 @@
+Current Mongosh Log ID:	6af770eac7e7563935a1c945
+Connecting to:		mongodb://<credentials>@localhost:27017/blog?authSource=admin&directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.14.2
+Using MongoDB:		7.0.48
+Using Mongosh:		2.14.2
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+
+To help improve our products, pseudo-anonymous usage data is collected from interactive and agentic sessions only, and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the disableTelemetry() command.
+
+------
+   The server generated these startup warnings when booting
+   2026-11-13T20:09:10.470+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2026-11-13T20:09:11.681+00:00: Soft rlimits for open file descriptors too low
+------
+
+blog> 
+blog> 
+blog> 
+blog> true
+blog> 
+blog> 
+blog> { ok: 1 }
+blog> 
+blog> 
+blog> | | | | {
+  acknowledged: true,
+  insertedId: ObjectId('6af770ebc7e7563935a1c946')
+}
+blog> 
+blog> 
+blog> | | | | | {
+  acknowledged: true,
+  insertedId: ObjectId('6af770ebc7e7563935a1c947')
+}
+blog> 
+blog> 
+blog> [
+  {
+    _id: ObjectId('6af770ebc7e7563935a1c946'),
+    titulo: 'Introdução ao MongoDB',
+    autor: 'Ana Costa',
+    conteudo: 'O MongoDB armazena dados em documentos parecidos com JSON.'
+  },
+  {
+    _id: ObjectId('6af770ebc7e7563935a1c947'),
+    titulo: 'Schema flexível na prática',
+    autor: 'Bruno Alves',
+    conteudo: 'Cada documento pode ter campos diferentes na mesma coleção.',
+    tags: [ 'nosql', 'flexivel' ]
+  }
+]
+blog> 
