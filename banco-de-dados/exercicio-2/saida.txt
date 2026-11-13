@@ -1,0 +1,29 @@
+UPDATE 1
+    aluno    |        curso        
+-------------+---------------------
+ Ana Pereira | Ciência de Dados
+ Carlos Lima | Desenvolvimento Web
+ João Silva  | Desenvolvimento Web
+ Maria Souza | Ciência de Dados
+(4 rows)
+
+    aluno    |        curso        
+-------------+---------------------
+ João Silva  | Desenvolvimento Web
+ Carlos Lima | Desenvolvimento Web
+(2 rows)
+
+UPDATE 1
+    aluno    |        curso        
+-------------+---------------------
+ Ana Pereira | Ciência de Dados
+ Carlos Lima | Desenvolvimento Web
+ João Silva  | Desenvolvimento Web
+ Maria Souza | Desenvolvimento Web
+(4 rows)
+
+ id |       nome_curso        
+----+-------------------------
+  3 | Segurança da Informação
+(1 row)
+
